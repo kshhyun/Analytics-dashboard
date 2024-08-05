@@ -93,12 +93,9 @@ def rain_graph():
 
 def max_delay_time():
     st.subheader("강수량 별 지하철 지연 빈도수")
-    
-    rain_csv_file_path = 'D:\\kDigital_workspace\\2차 프로젝트\\dashboard\\Analytics-dashboard\\csv\\rain2.csv'
-    delay_csv_file_path = 'D:\\kDigital_workspace\\2차 프로젝트\\dashboard\\Analytics-dashboard\\csv\\delay.csv'
 
     df1 = pd.read_csv(rain_csv_file_path)
-    df2 = pd.read_csv(delay_csv_file_path)
+    df2 = pd.read_csv(subway_delay_csv_file_path)
 
     # 데이터 전처리
     df2['날짜'] = pd.to_datetime(df2['날짜'])
@@ -119,12 +116,9 @@ def max_delay_time():
 
 def delay_analysis():
     st.subheader("강수량 별 평균 및 최대 지연시간")
-    
-    rain_csv_file_path = 'D:\\kDigital_workspace\\2차 프로젝트\\dashboard\\Analytics-dashboard\\csv\\rain2.csv'
-    delay_csv_file_path = 'D:\\kDigital_workspace\\2차 프로젝트\\dashboard\\Analytics-dashboard\\csv\\delay.csv'
 
     df1 = pd.read_csv(rain_csv_file_path)
-    df2 = pd.read_csv(delay_csv_file_path)
+    df2 = pd.read_csv(subway_delay_csv_file_path)
 
     # 데이터 전처리
     df2['날짜'] = pd.to_datetime(df2['날짜'])
