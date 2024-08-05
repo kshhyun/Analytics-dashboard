@@ -1,5 +1,8 @@
 streamlit
 pandas
 matplotlib
+import matplotlib.pyplot
 plotly
+plotly.express
+plotly.graph_objects
 statsmodels
