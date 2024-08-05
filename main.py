@@ -7,9 +7,9 @@ import plotly.graph_objects as go
 
 st.set_page_config(layout="wide")
 
-font_path = 'Gothic.ttf'
-font_prop = fm.FontProperties(fname=font_path, size=14)
-plt.rc('font', family='Gothic')
+# font_path = 'Gothic.ttf'
+# font_prop = fm.FontProperties(fname=font_path, size=14)
+# plt.rc('font', family='Gothic')
 
 # 사이드바 설정
 st.sidebar.title("Big-data Project")
@@ -17,9 +17,9 @@ sidebar_option = st.sidebar.selectbox('강수', ['강수량'])
 sidebar_option2 = st.sidebar.selectbox('지하철', ['지하철 유동인구', '지하철 지연'])
 
 # CSV 파일 경로
-rain_csv_file_path = 'csv\rain2.csv'
-subway_csv_file_path = 'csv\subway.csv'
-subway_delay_csv_file_path = 'csv\delay.csv'
+rain_csv_file_path = 'csv/rain2.csv'
+subway_csv_file_path = 'csv/subway.csv'
+subway_delay_csv_file_path = 'csv/delay.csv'
 
 rain_data = pd.read_csv(rain_csv_file_path)
 subway_data = pd.read_csv(subway_csv_file_path)
