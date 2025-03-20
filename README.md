@@ -34,5 +34,7 @@
 
 
 -----
-## 대시보드 보러가기
-https://analytics-dashboard-team2.streamlit.app/
+## 대시보드
+![image](https://github.com/user-attachments/assets/b6d23d0d-5c54-4f6e-8833-b448f96e1f49)
+![image](https://github.com/user-attachments/assets/5c3ed9d9-996d-43a9-8c00-266e5899f8b4)
+![image](https://github.com/user-attachments/assets/0bd9c35b-d71e-41cb-9a06-f3e37e668bb7)
